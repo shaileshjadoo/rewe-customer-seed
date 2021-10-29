@@ -1,0 +1,229 @@
+{
+  "metaInfo": {
+    "dataIndex": "config",
+    "collectionName": "configObjects",
+    "responseObjectName": "response"
+  },
+  "configObjects": [
+    {
+      "id": "global-settings_rewe_uiConfig",
+      "name": "global-settings_rewe",
+      "type": "uiConfig",
+      "properties": {
+        "createdService": "configurationManageService",
+        "createdBy": "rewe.admin@riversand.com_user",
+        "modifiedService": "configurationManageService",
+        "modifiedBy": "rewe.admin@riversand.com_user",
+        "createdDate": "2021-09-07T07:26:18.073-0500",
+        "modifiedDate": "2021-09-07T07:26:18.073-0500"
+      },
+      "data": {
+        "contexts": [
+          {
+            "context": {
+              "app": "_DEFAULT",
+              "classification": "_DEFAULT",
+              "component": "global-settings",
+              "domain": "_DEFAULT",
+              "entityType": "_DEFAULT",
+              "relationship": "_DEFAULT",
+              "role": "_DEFAULT",
+              "tenant": "_DEFAULT",
+              "user": "_DEFAULT"
+            },
+            "jsonData": {
+              "config": {
+                "organizationSettings": {
+                  "organizationName": ""
+                },
+                "landingPage": "home",
+                "dateTimePicker.defaultTime": "12:00:00",
+                "themeSettings": {
+                  "themeName": "dark",
+                  "headerLogoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Logo_REWE.svg",
+                  "footerTitle": "REWE MDM Center"
+                },
+                "dataDefaults": {
+                  "defaultTaxonomy": "",
+                  "categoryPathSeparator": ">>",
+                  "modelDomainEntityTypes": {
+                    "taxonomyModel": [
+                      "attributeModel",
+                      "relationshipModel"
+                    ]
+                  },
+                  "maxCountForAssetSyncDownload": 20,
+                  "domainMessageCodeMapping": {
+                    "referenceData": "RefSRAppTit",
+                    "governanceModel": "GDARTit",
+                    "digitalAsset": "DASRAppTit",
+                    "sysauthorizationmodel": "AutModTit",
+                    "baseModel": "DatModTit",
+                    "systemEvent": "SEARTit",
+                    "thing": "ThiDomTit",
+                    "party": "ParSRAppTit",
+                    "taxonomyModel": "TCARTit"
+                  },
+                  "enableAdvancedGrid": false,
+                  "entityTypes": {
+                    "governanceModel": [
+                      "businessCondition",
+                      "businessRule",
+                      "contentTemplateModel",
+                      "ruleContextMappings"
+                    ],
+                    "digitalAsset": [
+                      "audio",
+                      "document",
+                      "image",
+                      "video"
+                    ],
+                    "sysauthorizationmodel": [
+                      "role",
+                      "user"
+                    ],
+                    "visualization": [
+                      "dashboard",
+                      "systemDashboard"
+                    ],
+                    "thing": []
+                  },
+                  "applyGraphCoalescedStyle": true,
+                  "attributeModelAndDomainMapping": {
+                    "digitalAsset": [
+                      "digitalAsset"
+                    ],
+                    "connector": [
+                      "thing"
+                    ],
+                    "location": [
+                      "location"
+                    ],
+                    "thing": [
+                      "taxonomyModel",
+                      "thing"
+                    ],
+                    "party": [
+                      "party"
+                    ]
+                  },
+                  "thresholdSettings": {
+                    "compare-entities": {
+                      "maxRecords": 50,
+                      "pageSize": 10
+                    },
+                    "rock-grid": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "grid-item-view": {
+                      "maxRecords": 500,
+                      "pageSize": 15
+                    },
+                    "split-list": {
+                      "maxRecords": 1000,
+                      "pageSize": 100
+                    },
+                    "maxAllowedValuesForSearch": 500,
+                    "entity-type-model-lov": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "refine-more": {
+                      "maxRecords": 1000,
+                      "pageSize": 100
+                    },
+                    "pebble-lov": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "govern-data-grid": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "recent-activity": {
+                      "maxRecords": 200,
+                      "pageSize": 200
+                    },
+                    "saved-search": {
+                      "maxRecords": 100,
+                      "pageSize": 100
+                    },
+                    "entity-search-result": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "entity-lov": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "variant-options": {
+                      "maxRecords": 200,
+                      "pageSize": 10
+                    },
+                    "entity-model-lov": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "task-list": {
+                      "maxRecords": 100,
+                      "pageSize": 20
+                    },
+                    "workflow-entities-download-limit": 2000,
+                    "asset-search-result": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "snapshot-relationship-grid": {
+                      "maxRecords": 100,
+                      "pageSize": 10
+                    },
+                    "integration-state": {
+                      "maxRecords": 200,
+                      "pageSize": 50
+                    },
+                    "attribute-model-lov": {
+                      "maxRecords": 500,
+                      "pageSize": 100
+                    },
+                    "rock-classification-tree": {
+                      "maxRecords": 200,
+                      "pageSize": 50
+                    },
+                    "scope-selection": {
+                      "maxRecords": 1000,
+                      "pageSize": 100
+                    },
+                    "entity-relationship-search-result": {
+                      "maxRecords": 500,
+                      "pageSize": 500
+                    },
+                    "nested-attribute-grid": {
+                      "maxRecords": 100,
+                      "pageSize": 50
+                    },
+                    "bulk-edit-limit": 2000,
+                    "task-error-grid": {
+                      "maxRecords": 1000,
+                      "pageSize": 50
+                    },
+                    "pebble-data-table": {
+                      "maxRecords": 500,
+                      "pageSize": 50
+                    },
+                    "entity-graph-tree": {
+                      "maxRecords": 200,
+                      "pageSize": 10,
+                      "defaultChildDepth": 20
+                    }
+                  },
+                  "showAllWorkflows": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
