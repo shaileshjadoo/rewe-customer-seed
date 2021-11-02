@@ -21,15 +21,9 @@
                 "contexts": [
                     {
                         "context": {
-                            "app": "_DEFAULT",
-                            "classification": "_DEFAULT",
+                           
                             "component": "rock-entity-create",
-                            "domain": "_DEFAULT",
-                            "entityType": "exlieferantenartikel",
-                            "relationship": "_DEFAULT",
-                            "role": "_DEFAULT",
-                            "tenant": "_DEFAULT",
-                            "user": "_DEFAULT"
+                            "entityType": "exlieferantenartikel"
                         },
                         "jsonData": {
                             "config": {

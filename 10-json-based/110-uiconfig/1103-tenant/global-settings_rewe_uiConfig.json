@@ -21,15 +21,9 @@
         "contexts": [
           {
             "context": {
-              "app": "_DEFAULT",
-              "classification": "_DEFAULT",
+             
               "component": "global-settings",
-              "domain": "_DEFAULT",
-              "entityType": "_DEFAULT",
-              "relationship": "_DEFAULT",
-              "role": "_DEFAULT",
-              "tenant": "_DEFAULT",
-              "user": "_DEFAULT"
+              "domain": "_DEFAULT"
             },
             "jsonData": {
               "config": {
