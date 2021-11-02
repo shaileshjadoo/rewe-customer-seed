@@ -1,1 +1,0 @@
-# rewe-customer-seed

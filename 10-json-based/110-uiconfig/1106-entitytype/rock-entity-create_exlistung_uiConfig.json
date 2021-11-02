@@ -1,8 +1,8 @@
 {
     "metaInfo": {
-      "dataIndex": "config",
-      "collectionName": "configObjects",
-      "responseObjectName": "response"
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
     },
     "configObjects": [
         {
@@ -47,4 +47,4 @@
             }
         }
     ]
-  }
+}
