@@ -1,52 +1,52 @@
 {
     "metaInfo": {
-      "dataIndex": "config",
-      "collectionName": "configObjects",
-      "responseObjectName": "response"
+        "dataIndex": "config",
+        "collectionName": "configObjects",
+        "responseObjectName": "response"
     },
     "configObjects": [
-{
-    "id": "rock-entity-create_exeinkaufskond_uiConfig",
-    "name": "rock-entity-create_exeinkaufskond",
-    "type": "uiConfig",
-    "properties": {
-        "createdService": "configurationManageService",
-        "createdBy": "rewe.admin@riversand.com_user",
-        "modifiedService": "configurationManageService",
-        "modifiedBy": "rewe.admin@riversand.com_user",
-        "createdDate": "2021-09-07T08:46:23.465-0500",
-        "modifiedDate": "2021-09-07T08:46:23.465-0500"
-    },
-    "data": {
-        "contexts": [
-            {
-                "context": {
-                    "app": "_DEFAULT",
-                    "classification": "_DEFAULT",
-                    "component": "rock-entity-create",
-                    "domain": "_DEFAULT",
-                    "entityType": "exeinkaufskond",
-                    "relationship": "_DEFAULT",
-                    "role": "_DEFAULT",
-                    "tenant": "_DEFAULT",
-                    "user": "_DEFAULT"
-                },
-                "jsonData": {
-                    "config": {
-                        "properties": {
-                            "attributeNames": [
-                                "axkomgdatab",
-                                "axkomgdatbi",
-                                "axkomgkbetr",
-                                "axkomgkmein",
-                                "axkomgkonwa"
-                            ]
+        {
+            "id": "rock-entity-create_exeinkaufskond_uiConfig",
+            "name": "rock-entity-create_exeinkaufskond",
+            "type": "uiConfig",
+            "properties": {
+                "createdService": "configurationManageService",
+                "createdBy": "rewe.admin@riversand.com_user",
+                "modifiedService": "configurationManageService",
+                "modifiedBy": "rewe.admin@riversand.com_user",
+                "createdDate": "2021-09-07T08:46:23.465-0500",
+                "modifiedDate": "2021-09-07T08:46:23.465-0500"
+            },
+            "data": {
+                "contexts": [
+                    {
+                        "context": {
+                            "app": "_DEFAULT",
+                            "classification": "_DEFAULT",
+                            "component": "rock-entity-create",
+                            "domain": "_DEFAULT",
+                            "entityType": "exeinkaufskond",
+                            "relationship": "_DEFAULT",
+                            "role": "_DEFAULT",
+                            "tenant": "_DEFAULT",
+                            "user": "_DEFAULT"
+                        },
+                        "jsonData": {
+                            "config": {
+                                "properties": {
+                                    "attributeNames": [
+                                        "axkomgdatab",
+                                        "axkomgdatbi",
+                                        "axkomgkbetr",
+                                        "axkomgkmein",
+                                        "axkomgkonwa"
+                                    ]
+                                }
+                            }
                         }
                     }
-                }
+                ]
             }
-        ]
-    }
-}
+        }
     ]
 }
