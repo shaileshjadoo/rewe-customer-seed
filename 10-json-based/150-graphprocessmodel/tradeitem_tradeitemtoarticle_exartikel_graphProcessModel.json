@@ -1,0 +1,79 @@
+{
+	"metaInfo": {
+		"dataIndex": "entityModel",
+		"collectionName": "entityModels",
+		"responseObjectName": "response"
+	},
+	"entityModels": [
+		{
+            "id": "tradeitem_tradeitemtoarticle_exartikel_aw_graphProcessModel",
+            "name": "tradeitem_tradeitemtoarticle_exartikel_aw",
+            "type": "graphProcessModel",
+            "domain": "generic",
+            "properties": {
+                "defaultValueSource": "internal",
+                "defaultValueLocale": "en-US",
+                "graphProcessPath": "tradeitem_tradeitemtoarticle_exartikel",
+                "matchRulesOperator": "or",
+                "matchRules": [
+                    {
+                        "seq": 1,
+                        "matchType": "attributeBased",
+                        "attributeMaps": [
+                            {
+                                "gtin": "gtin"
+                            }
+                        ],
+                        "noMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "DoNothing"
+                                    }
+                                ]
+                            }
+                        ],
+                        "singleMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "CopyData"
+                                    }
+                                ]
+                            }
+                        ],
+                        "multiMatchResult": [
+                            {
+                                "actions": [
+                                    {
+                                        "actionName": "Error"
+                                    }
+                                ]
+                            }
+                        ],
+                        "smartIdAttributes": [
+                            {
+                                "attributeNames": "gtin",
+                                "concatDelimiter": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "data": {
+                "attributes": {
+                    "ayweight": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    },
+                    "aywidthmm": {
+                        "properties": {
+                            "strategy": "copy"
+                        }
+                    }
+                }
+            }
+        }
+	]
+}
