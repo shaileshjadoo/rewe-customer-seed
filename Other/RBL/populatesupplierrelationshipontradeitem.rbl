@@ -1,0 +1,7 @@
+varGLN:=GetAttributeValue["_DEFAULT","_DEFAULT","informationprovideroftradeitem"];
+varSupplierName:=GetAttributeValue["_DEFAULT","_DEFAULT","informationProviderpartyname"];
+IIF[
+        HaveAnyAttributesChanged["_DEFAULT","_DEFAULT","informationprovideroftradeitem","informationProviderpartyname"] and ValidateEmptyAttributes["_DEFAULT","_DEFAULT","informationprovideroftradeitem"]=false,
+            AddRelationshipInContextByEntityId["self:self",varGLN,"exlieferant","rtxetxartikelToepxsupplier"]
+            ,false
+    ]

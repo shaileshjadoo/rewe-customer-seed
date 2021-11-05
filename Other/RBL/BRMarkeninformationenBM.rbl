@@ -1,0 +1,9 @@
+varChanged:=HaveAnyAttributesChanged["_DEFAULT", "_DEFAULT", "axMarkenTriggerBM"];
+ varTrigger:=IIF[IsNullOrEmpty[GetEntityAttributeValueById["_DEFAULT", "_DEFAULT", GetEntityId[], GetEntityType[], "axMarkenTriggerBM"]], "", GetEntityAttributeValueById["_DEFAULT", "_DEFAULT", GetEntityId[], GetEntityType[], "axMarkenTriggerBM"]];
+ varMarke:=GetRelatedEntityId["rtxetxartikelToetxbrand","etxbrand"];
+ varMarkenname:=IIF[IsNullOrEmpty[GetEntityAttributeValueById["_DEFAULT", "_DEFAULT", varMarke, "etxbrand", "mdmname"]], "", GetEntityAttributeValueById["_DEFAULT", "_DEFAULT", varMarke, "etxbrand", "mdmname"]];
+ varMarkenbeschreibung:=IIF[IsNullOrEmpty[GetEntityAttributeValueById["_DEFAULT", "_DEFAULT", varMarke, "etxbrand", "atxdescription"]], "", GetEntityAttributeValueById["_DEFAULT", "_DEFAULT", varMarke, "etxbrand", "atxdescription"]];
+ IIF[varChanged AND varTrigger = TRUE, 
+    SetEntityAttributeValue["_DEFAULT", "_DEFAULT", GetEntityId[], GetEntityType[], "axMarkeninformationBM", CONCAT[varMarkenname, " - ", varMarkenbeschreibung]] AND
+	SetEntityAttributeValue["_DEFAULT", "_DEFAULT", GetEntityId[], GetEntityType[], "axMarkenTriggerBM", FALSE], 
+    FALSE]
